@@ -1,11 +1,21 @@
-.titulo{
-    color: pink;
-    text-align: center;
-}
-
-.img{
-    width: 700px;
-    height: 500px;
-    display: block;
-    margin: 0 auto;
-}
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .bg-pink-300 {
+    background-color: #f472b6;
+    width: 100%;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
